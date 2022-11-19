@@ -1,25 +1,19 @@
 public class Operadores {
     public static void main (String[] args) {
-        String concatenacao ="?"; 
+        int a, b;
 
-        concatenacao = 1+1+1+"1";
-
-        System.out.println(concatenacao);
-
-        concatenacao = 1+"1"+1+1;
-
-        System.out.println(concatenacao);
-
-        concatenacao = 1+"1"+1+"1";
-
-        System.out.println(concatenacao);
-
-        concatenacao = "1"+1+1+1;
-
-        System.out.println(concatenacao);
-
-        concatenacao = "1"+(1+1+1);
+        a = 5;
+        b = 6;
         
-        System.out.println(concatenacao);
-    }
+        String resultado = "";
+        if(a==b)
+            resultado = "verdadeiro";
+        else
+            resultado = "false";
+
+        System.out.println(resultado);
+        }
+
+        //Essa sintaxe pode substituir essa de cima String resultado = a==b ? "verdadeiro" : "false";
+
 }
