@@ -1,19 +1,16 @@
 public class Operadores {
     public static void main (String[] args) {
-        int a, b;
-
-        a = 5;
-        b = 6;
-        
-        String resultado = "";
-        if(a==b)
-            resultado = "verdadeiro";
-        else
-            resultado = "false";
-
-        System.out.println(resultado);
+            boolean condicao1=true;
+    
+            boolean condicao2=true;
+            
+            if(condicao1 && ( 7 > 4 ) ){
+            System.out.println("as duas condicoes sao verdadeiras");
         }
+        if(condicao1 || condicao2){
+            System.out.println("uma das condicoes é verdadeiras");
+            System.out.println("fim");
+            }
 
-        //Essa sintaxe pode substituir essa de cima String resultado = a==b ? "verdadeiro" : "false";
-
+}
 }

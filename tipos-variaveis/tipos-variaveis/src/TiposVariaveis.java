@@ -13,6 +13,7 @@ public class TiposVariaveis {
 		System.out.print(numero);
 
         SALARIOMINIMO = 2501;
+        
                       
     }
 }
